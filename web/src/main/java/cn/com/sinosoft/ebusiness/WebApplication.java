@@ -1,13 +1,14 @@
-package cn.com.sinosoft.ebusiness.online;
+package cn.com.sinosoft.ebusiness;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OnlineApplication {
+public class WebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OnlineApplication.class, args);
+        System.out.println("===Springboot run===");
+        SpringApplication.run(WebApplication.class, args);
     }
 
 }
